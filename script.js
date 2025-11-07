@@ -61,7 +61,10 @@ const createPanel = (id, title, contentHTML) => `
 const getHomeView = () => {
     // Note: Since I cannot include a real image, I'll use a placeholder.
     // Replace 'path/to/your/photo.jpg' with a real image path.
-    const imagePlaceholder = 'Dp.jpeg';
+// In the script.js file within the dkyaladandi.github.io repository
+const imagePlaceholder = 'Dp.jpeg'; 
+// Or the relative path: const imagePlaceholder = './Dp.jpeg';
+// Both will work now!
 
     const content = `
         <div class="home-panel">
@@ -203,4 +206,5 @@ window.addEventListener('popstate', () => {
 document.addEventListener('DOMContentLoaded', () => {
     // The initial path is the current URL path
     navigateTo(window.location.pathname);
+
 });
