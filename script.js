@@ -10,7 +10,7 @@ const resumeData = {
         github: "https://github.com/dkyaladandi"
     },
     skills: [
-        "JAVA (Proficient)", "HTML (Advanced)", "CSS (Advanced)", "JAVASCRIPT (Proficient)",
+        "JAVA (Proficient)", "HTML (Advanced)", "CSS (Advanced)", "JAVASCRIPT (Proficient)","REACT(Proficient)",
         "REST API's (basic)", "WEB SOCKETS/(SOCKET.IO)", "MYSQL", "GIT & GITHUB",
         "GITHUB PAGES", "VS CODE", "NETLIFY", "Debugging", "Communication Skills"
     ],
@@ -208,3 +208,4 @@ document.addEventListener('DOMContentLoaded', () => {
     navigateTo(window.location.pathname);
 
 });
+
