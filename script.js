@@ -72,7 +72,7 @@ const imagePlaceholder = 'Dp.jpeg';
                 <p>Hello, I'm</p>
                 <h1>${resumeData.name}</h1>
                 <h3>Aspiring Web Developer</h3>
-                <p>${resumeData.objective.substring(0, 350)}...</p>
+                <p>${resumeData.objective.substring(0, 350)}</p>
                 <a href="/projects" data-path="projects" class="submit-btn" style="margin-top: 1.5rem; display: inline-block;">View Projects</a>
             </div>
             <div class="profile-img-container">
@@ -208,5 +208,6 @@ document.addEventListener('DOMContentLoaded', () => {
     navigateTo(window.location.pathname);
 
 });
+
 
 
